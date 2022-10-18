@@ -1,0 +1,5 @@
+Installiere eine aktuelle Version von NodeJS bzw. sorge dafür dass eine vorhanden ist
+Führe in diesem Ordner "npm install" aus um die Abhängigkeiten zu installieren
+Passe die Konfiguration in der Datei ".env" an oder setze alternativ gleichnamige Umgebungsvariablen
+Die Anwendung kann mit oder ohne PostgreSQL Datenbank laufen. Die Anwendung schaltet nur in den DB Modus, wenn alle relevanten Konfigurationsvariablen gesetzt sind. Fehlt eine dieser Variablen, startet der Server ohne DB.
+Starte den Server mit "node index" oder "npm start"
